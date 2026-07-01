@@ -30,8 +30,30 @@
 
 // **Hint:** Use `0` and `length - 1`
 
-let arr =[12,42,53,32,56];
-console.log(arr[0]);
-console.log(arr[arr.length-1]);
+// let arr =[12,42,53,32,56];
+// console.log(arr[0]);
+// console.log(arr[arr.length-1]);
+
+
+// Swap the second and second-last element using indexing.
+
+// **Hint:** Use temporary variable
+// let a=4;
+// let b=6;
+// let temp= 0;
+// temp=a;
+
+// a=b;
+// b=temp;
+// console.log(a);
+// console.log(b);
+let arr = [21,23,42,12,11];
+let temp;
+temp=arr[1];
+arr[1]=arr[arr.length-2];
+arr[arr.length-2]=temp;
+console.log(arr);
+
+
 </script>
 </html>
