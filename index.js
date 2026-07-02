@@ -1,0 +1,70 @@
+       //     let arr=["kjf","sapna vs everyone" , "spiderman" ,"badboys","harrypotter"];
+// console.log("my fav movies are")
+//     for(let a=0; a <= arr.length-1; a++){
+//         console.log(arr[a]);
+//     }
+
+// let arr = [21.22,"vikash",8,[21,22,32]];
+//  for (let a = 0; a < arr.length; a++) {
+//     if (Array.isArray(arr[a])) {
+//         console.log(arr[a]);
+//     }
+// } 
+
+//   # 2. Indexing in Array
+
+// ### Intermediate
+
+// Print the first and last element of an array.
+
+// **Hint:** Use `0` and `length - 1`
+
+// let arr =[12,42,53,32,56];
+// console.log(arr[0]);
+// console.log(arr[arr.length-1]);
+
+
+// Swap the second and second-last element using indexing.
+
+// **Hint:** Use temporary variable
+// let a=4;
+// let b=6;
+// let temp= 0;
+// temp=a;
+
+// a=b;
+// b=temp;
+// console.log(a);
+// console.log(b);
+// let arr = [21,23,42,12,11];
+// let temp;
+// temp=arr[1];
+// arr[1]=arr[arr.length-2];
+// arr[arr.length-2]=temp;
+// console.log(arr);
+
+// let arr = [[1,2,3,4],[5,6,7,8]];
+
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i][0]);
+// }
+//        let students = [
+//   { name: "Anubhav", marks: 85 },
+//   { name: "Rahul", marks: 42 },
+//   { name: "Aman", marks: 90 },
+// ];
+
+//  let arr2 = students.forEach(elem=>{
+//   if(elem.marks > 50){
+//     console.log( `${elem.name} ${elem.marks}`);
+//   }
+//  });
+
+//  let arr2 = students.forEach(elem=>{
+//   if(elem.marks > 50){
+//     console.log( `${elem.name} pass`);
+//   }
+//   else{
+//     console.log( `${elem.name} fail`);
+//   }
+//  });
